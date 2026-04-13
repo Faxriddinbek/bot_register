@@ -1,0 +1,17 @@
+psql -U postgres
+
+SQLAlchemy => pythonda ko'd yozib sqlga o'girib beradi (ORM qobilyati)
+alembic => drf dagi makemigartin va migrate vazifasini bajaradi
+/ => comanda recobinatsiyaga chiqazish
+filter => masalan faqat adminlar ishlata olishini ko'rdim
+battinni orqasidagi komanda bo'yicha ishlashini ko'rdim
+mediafile_jo'natrish=> lokada bo'lsa binary bilan yuorish, netdagi link orqali, telegramdagi id orqali jo'natish
+
+{
+            commandalar
+1)alembic init (file name)alembic ==> bu migratsa file tushadigon papka
+2)alembic stamp head ==> bu migratsiya databaza bilan oloqani tekshiradi
+3)alembic revision --autogenerate ==> bu makemigration qiladi
+4)alembic upgrade head ==> bu migrate qilib beradi
+}
+

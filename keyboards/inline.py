@@ -1,6 +1,6 @@
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-IT_language = InlineKeyboardMarkup( # umumioy yuiboriladigon buttonlarini jamlammasi
+language = InlineKeyboardMarkup( # umumioy yuiboriladigon buttonlarini jamlammasi
     inline_keyboard=[
         [
             InlineKeyboardButton(text="Python", callback_data="py"),#callback_data => shu tugmani bosganda orqa fonda ishlaydigon text bu userga ko'rinmidi
@@ -9,6 +9,13 @@ IT_language = InlineKeyboardMarkup( # umumioy yuiboriladigon buttonlarini jamlam
         [
             InlineKeyboardButton(text="PHP", callback_data="php"),
             InlineKeyboardButton(text="GO", callback_data="go")
+        ]
+    ]
+)
+inline_keyboard_test = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text="Test", callback_data="inline_keyboard")
         ]
     ]
 )

@@ -11,3 +11,11 @@ location = ReplyKeyboardMarkup(
         KeyboardButton(text="Sharing/Ulashish", request_location=True)
     ]], resize_keyboard=True
 )
+user_main_menu = ReplyKeyboardMarkup(# user ro'yhatdan o'tgandan keyin beriladi
+    keyboard=[
+        [
+            KeyboardButton(text="👤 Profile"),
+            KeyboardButton(text="⚙️ Settings"),
+        ]
+    ], resize_keyboard=True
+)
